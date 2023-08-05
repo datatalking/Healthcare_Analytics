@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="68e10da5-f8d5-4f62-9e66-20421a89e30b" name="mortality.db Mapping">
+      <data-sources db="4f465d31-6b73-4b14-abb5-85b48ed39048" ddl="44b9c51a-1183-4c25-8e45-245cc476022d" />
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="44b9c51a-1183-4c25-8e45-245cc476022d" />
+          <option name="name" value="mortality.db Mapping (DDL)" />
+          <option name="languageId" value="SQLite" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/data/PATIENT.sql" />
+            </array>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>
