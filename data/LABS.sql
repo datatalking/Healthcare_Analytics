@@ -1,0 +1,9 @@
+CREATE TABLE LABS(
+	Pid	VARCHAR(30) NOT NULL,
+	Lab_name VARCHAR(50),
+	Lab_abbrev VARCHAR(20),
+	Lab_loinc VARCHAR(10) NOT NULL,
+	Lab_value VARCHAR(20) NOT NULL,
+	Ordering_md	VARCHAR(30),
+	Lab_date DATE NOT NULL
+);
