@@ -1,0 +1,10 @@
+CREATE TABLE MEDICATIONS(
+	Pid	VARCHAR(30)	NOT NULL,
+	Rx_name	VARCHAR(50)	NOT NULL,
+	Rx_dose	VARCHAR(20),
+	Rx_freq	VARCHAR(10),
+	Rx_route VARCHAR(10),
+	Prescribing_md VARCHAR(30) NOT NULL,
+	Rx_date	DATE NOT NULL,
+	Rx_ndc VARCHAR(30)
+);

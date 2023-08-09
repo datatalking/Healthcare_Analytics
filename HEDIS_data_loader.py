@@ -1,11 +1,15 @@
-# This is a sample Python script.
+# SOURCE https://www.ncqa.org/wp-content/uploads/HEDIS-MY-2024-Measure-Description.pdf
+# packtpub book
 
 import sqlite3
+from model import patient_predictions
 
 
 def main():
     insert_HEDIS_data()
     print_hi(name)
+    patient_predictions
+
 
 # TODO add VITALS, MORT, MEDICATIONS, LABS
 # TODO add python faker to future version
