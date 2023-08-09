@@ -1,0 +1,5 @@
+CREATE TABLE MORT(
+	Pid	VARCHAR(30)	NOT NULL,
+	Mortality_date DATE NOT NULL,
+  PRIMARY KEY (Pid)
+);
