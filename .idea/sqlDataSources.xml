@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DdlMappings">
-    <mapping uuid="68e10da5-f8d5-4f62-9e66-20421a89e30b" name="mortality.db Mapping">
+    <mapping uuid="68e10da5-f8d5-4f62-9e66-20421a89e30b" name="mortality.db">
       <data-sources db="4f465d31-6b73-4b14-abb5-85b48ed39048" ddl="44b9c51a-1183-4c25-8e45-245cc476022d" />
+      <scope>
+        <node kind="database" negative="1">
+          <node kind="schema" negative="1" />
+        </node>
+      </scope>
+    </mapping>
+    <mapping uuid="4fb9b755-ea08-471b-ba9a-d6b63b3a65d0" name="Cluster0 Mapping">
+      <data-sources db="8dc37f69-ed52-4583-a3df-e54483e8fb4f" />
+    </mapping>
+    <mapping uuid="09178605-8de2-458d-ac5d-c6f2ee1f1160" name="DDL Mapping">
+      <data-sources ddl="d6e9f784-9213-430f-903e-aff3521c9844" />
     </mapping>
   </component>
   <component name="SqlDataSourceStorage">
@@ -11,6 +22,16 @@
         <State>
           <option name="id" value="44b9c51a-1183-4c25-8e45-245cc476022d" />
           <option name="name" value="mortality.db Mapping (DDL)" />
+          <option name="languageId" value="SQLite" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/data/PATIENT.sql" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="d6e9f784-9213-430f-903e-aff3521c9844" />
+          <option name="name" value="DDL Mapping (DDL)" />
           <option name="languageId" value="SQLite" />
           <option name="urls">
             <array>
