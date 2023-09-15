@@ -4,7 +4,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 
-
 not_my_data = set(globals())
 
 # Declare some global variables
@@ -19,7 +18,7 @@ not_my_data
 # TODO
 # TODO update model prediction based on input values gatherd from user
 # Load and preprocess data (age, income, distance, missed_appointments)
-data = pd.read_csv("../data/patient_HEDIC_appointment_demo.csv")
+data = pd.read_csv("../../data/patient_HEDIC_appointment_demo.csv")
 X = data.drop("patient_missed_appointments", axis=1)
 y = data["patient_missed_appointments"]
 X_train, X_test, y_train, y_test = train_test_split(
@@ -54,5 +53,3 @@ for i, (actual, predicted) in enumerate(zip(y_test, y_pred)):
     print(
         f"Patient {i + 1}: Predicted to {appointment_status} the appointment. Actual status: {'missed' if actual == 1 else 'not missed'}."
     )
-
-
