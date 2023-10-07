@@ -1,8 +1,20 @@
 # SOURCE https://www.ncqa.org/wp-content/uploads/HEDIS-MY-2024-Measure-Description.pdf
 # packtpub book
 
+#################################
+# HEALTHCARE Analytics Testing  #
+# Version 1.  #
+#################################
+
 import sqlite3
 from model.predictions import patient_predictions
+import requests
+from dotenv import load_dotenv
+import nltk
+import model.predictions.patient_predictions
+import model.cleaning.HIPAA_limited_dataset
+
+load_dotenv()
 
 
 # TODO add EDA from https://towardsdatascience.com/exploratory-analysis-python-kaggle-data-b0afb6ec1788
