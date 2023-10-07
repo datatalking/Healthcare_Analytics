@@ -1,0 +1,7 @@
+"issue type","issue title","issue description"
+"new TODO","Automating Issue Creation","add python integration for github API to generate issues from TODO tag"
+"new TODO","Add HIPAA doc sources","https://www.hopkinsmedicine.org/institutional-review-board/hipaa-research/limited-data-set"
+"new TODO","identified dataset","look for references of samples across different HIPAA and HEDIC data docuemntation"
+"new TODO","de-identified dataset","look for references of samples across different HIPAA and HEDIC data docuemntation"
+"new TODO","limited dataset","look for references of samples across different HIPAA and HEDIC data docuemntation"
+"new TODO","Add README.md via automation script","Help people interested in this repository understand your project by adding a README"
